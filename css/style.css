@@ -1,0 +1,28 @@
+body {
+font-family:'Simonetta',cursive;
+margin-top:70px;
+}
+
+.max-viewport{
+min-height:100vh;
+}
+
+.transparent {
+background:rgba(139,69,19,0.7);
+}
+
+
+#banner,#contact,#social
+{
+background:linear-gradient(to bottom,rgba(0,0,0,0.6),
+rgba(0,0,0,0.3)),
+url("../img/profile.jpg");
+background-attachment:fixed;
+background-size:cover;
+background-position:center;
+}
+
+#details
+{
+	background:#f4f4f4;
+}
